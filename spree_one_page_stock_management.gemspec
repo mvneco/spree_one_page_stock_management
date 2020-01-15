@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'spree_core', '>= 3.1.0', '< 5.0'
   s.add_dependency 'spree_extension'
+  s.add_dependency 'bootstrap-sass', '~> 3.4.1'
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'capybara-screenshot'
