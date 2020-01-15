@@ -1,0 +1,20 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ * As specified in https://github.com/twbs/bootstrap-rubygem/tree/v4.3.1, this file has to be renamed
+ * from .css to .scss, and "asterisk-equal require/require_tree" directives need to be removed or replaced!!
+ * See: https://github.com/twbs/bootstrap-rubygem/tree/v4.3.1
+ * See: https://stackoverflow.com/a/52805257
+ */
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap-sass";
