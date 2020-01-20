@@ -1,3 +1,11 @@
-Spree::StockItem.class_eval do
-  self.whitelisted_ransackable_associations = ['variant']
+module Spree
+  module StockItemDecorator
+    
+    def self.prepended(base)
+      base.self.whitelisted_ransackable_associations = ['variant']
+    end
+
+  end
 end
+
+Spree::StockItem.prepend(Spree::StockItemDecorator)
