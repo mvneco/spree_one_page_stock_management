@@ -4,7 +4,7 @@ Deface::Override.new(
   insert_bottom: "[data-hook='admin_tabs']",
   text: %q{
       <% if can? :admin, Spree::StockItem %>
-        <ul class="nav nav-sidebar">
+        <ul class="nav nav-sidebar border-bottom">
           <%= tab *Spree::BackendConfiguration::STOCKS_TABS, icon: 'th-list' %>
         </ul>
       <% end %>
