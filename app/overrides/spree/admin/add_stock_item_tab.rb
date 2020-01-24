@@ -1,7 +1,7 @@
 Deface::Override.new(
   virtual_path: 'spree/layouts/admin',
   name: 'add_stock_item_tab',
-  insert_after: 'ul.nav-sidebar::after',
+  insert_after: 'ul.nav-sidebar:last-child',
   text: %q{
       <% if can? :admin, Spree::StockItem %>
         <ul class="nav nav-sidebar border-bottom">
